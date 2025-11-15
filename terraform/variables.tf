@@ -11,7 +11,7 @@ variable "app_name" {
 # ECR repo base (without tag). This is the repo you push to / pull from.
 variable "ecr_repo" {
   type    = string
-  default = "130358282811.dkr.ecr.ap-south-2.amazonaws.com/devops_ci_cd_final_prac_6_clean"
+  default = "130358282811.dkr.ecr.ap-south-1.amazonaws.com/roadmap-app"
 }
 
 # image_tag will be passed from Jenkins (commit short); default uses 'latest' for manual runs

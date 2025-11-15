@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     AWS_REGION     = 'ap-south-1'
-    ECR_REPO       = '130358282811.dkr.ecr.ap-south-2.amazonaws.com/devops_ci_cd_final_prac_6_clean' 
+    ECR_REPO       = '130358282811.dkr.ecr.ap-south-1.amazonaws.com/roadmap-app' 
     TERRAFORM_DIR  = 'terraform/'
   }
 
